@@ -4,5 +4,5 @@ const y = 20
 if (x == y){
    console.log("x é igual a y");
 } else {
-   console.log("x nao é igual a y");
+   console.log("x não é igual a y");
 }
