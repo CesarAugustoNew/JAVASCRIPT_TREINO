@@ -86,7 +86,6 @@ const contador = 5
       console.log(`numero da repeticao for ${i}`);
    }
 
-   //FUNÇÕES
 
    
 
