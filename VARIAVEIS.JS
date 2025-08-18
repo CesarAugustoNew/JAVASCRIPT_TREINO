@@ -70,3 +70,28 @@ if (!chuva) {
 }
 //////////////////////////////////////////////////////////////////
 
+;
+
+const notas = [ 10, 5, 15, 2, 20]
+
+let somaDasNotas = 0
+
+notas.forEach(function(nota){
+    somaDasNotas += nota;
+})
+
+const raro = somaDasNotas / notas.length;
+
+console.log(`a media das notas e ${raro}`);
+////////////////////////////////////////////////////
+
+const numeros = [2, 4, 6, 8];
+let soma = 0;
+
+numeros.forEach(numero => {
+    soma += numero;
+});
+
+console.log("A soma dos números é:", soma);
+///////////////////////////////////////////////////////
+
